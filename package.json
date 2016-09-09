@@ -1,0 +1,23 @@
+{
+  "name": "rollup101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "ocowchun <ocowchun@gmail.com>",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "rollup": "^0.34.9",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-commonjs": "^3.3.1",
+    "rollup-plugin-json": "^2.0.2",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "rollbar": "^0.6.2"
+  }
+}
